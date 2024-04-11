@@ -1,0 +1,62 @@
+header {
+    background-color: blanchedalmond;
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 3px solid black;
+    padding-top: 15px;
+    height: 75px;
+}
+
+div{
+    margin-bottom: 5px;
+}
+
+#div1 {
+    background-color: linen;
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.singleDiv {        
+    background-color: beige;  
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    width: 500px;
+    height: auto;
+}
+button{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;            
+}
+
+.postDiv{    
+    background-color: darkgrey;    
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 10px;
+    width: 900px;
+    height: auto;
+}
+
+.comments{
+    background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.hidden{
+    display: none;
+}
