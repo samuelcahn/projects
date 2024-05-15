@@ -75,15 +75,7 @@
                 mainCommentDiv.appendChild(commentDiv);
             });
             e.target.removeEventListener('click', loadComments);
-            e.target.addEventListener('click', hideAndShow/* (r) => {
-                if (mainCommentDiv.className === 'hidden') {
-                    r.target.innerText = 'Hide Comments';
-                    mainCommentDiv.className = 'comments';
-                } else {
-                    r.target.innerText = 'Show Comments';
-                    mainCommentDiv.className = 'hidden';
-                }
-            }*/);
+            e.target.addEventListener('click', hideAndShow);
         }
 
         function hideAndShow(e) {
